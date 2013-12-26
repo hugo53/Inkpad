@@ -1,24 +1,24 @@
 
 /* Class = "IBUILabel"; text = "Blue"; ObjectID = "15"; */
-"15.text" = "Blue";
+"15.text" = "Xanh lam";
 
 /* Class = "IBUILabel"; text = "Yellow"; ObjectID = "16"; */
-"16.text" = "Yellow";
+"16.text" = "Vàng";
 
 /* Class = "IBUILabel"; text = "Green"; ObjectID = "18"; */
-"18.text" = "Green";
+"18.text" = "Xanh lá";
 
 /* Class = "IBUILabel"; text = "Magenta"; ObjectID = "19"; */
-"19.text" = "Magenta";
+"19.text" = "Đỏ tươi";
 
 /* Class = "IBUILabel"; text = "0"; ObjectID = "21"; */
 "21.text" = "0";
 
 /* Class = "IBUILabel"; text = "Cyan"; ObjectID = "22"; */
-"22.text" = "Cyan";
+"22.text" = "Lục lam";
 
 /* Class = "IBUILabel"; text = "Red"; ObjectID = "23"; */
-"23.text" = "Red";
+"23.text" = "Đỏ";
 
 /* Class = "IBUILabel"; text = "0"; ObjectID = "24"; */
 "24.text" = "0";
@@ -27,7 +27,7 @@
 "25.text" = "0";
 
 /* Class = "IBUINavigationItem"; title = "Color Balance"; ObjectID = "34"; */
-"34.title" = "Color Balance";
+"34.title" = "Cân bằng màu sắc";
 
 /* Class = "IBUIBarButtonItem"; title = "Accept"; ObjectID = "36"; */
-"36.title" = "Accept";
+"36.title" = "Đồng ý";

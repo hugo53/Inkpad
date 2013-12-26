@@ -1,24 +1,24 @@
 
 /* Class = "IBUILabel"; text = "Hue"; ObjectID = "29"; */
-"29.text" = "Hue";
+"29.text" = "Độ màu";
 
 /* Class = "IBUILabel"; text = "0"; ObjectID = "30"; */
 "30.text" = "0";
 
 /* Class = "IBUILabel"; text = "Saturation"; ObjectID = "31"; */
-"31.text" = "Saturation";
+"31.text" = "Độ bão hòa";
 
 /* Class = "IBUILabel"; text = "0"; ObjectID = "32"; */
 "32.text" = "0";
 
 /* Class = "IBUILabel"; text = "Brightness"; ObjectID = "34"; */
-"34.text" = "Brightness";
+"34.text" = "Độ sáng";
 
 /* Class = "IBUILabel"; text = "0"; ObjectID = "35"; */
 "35.text" = "0";
 
 /* Class = "IBUINavigationItem"; title = "Hue and Saturation"; ObjectID = "54"; */
-"54.title" = "Hue and Saturation";
+"54.title" = "Độ màu và Độ bão hòa";
 
 /* Class = "IBUIBarButtonItem"; title = "Accept"; ObjectID = "55"; */
-"55.title" = "Accept";
+"55.title" = "Đồng ý";
