@@ -11,6 +11,7 @@
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		29E28F8415115F68007D36DE /* WDEmail.m in Sources */ = {isa = PBXBuildFile; fileRef = 29E28F8315115F68007D36DE /* WDEmail.m */; };
 		29E41AC213F9B229000C3305 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 29E41AC113F9B229000C3305 /* libz.dylib */; };
+		39C5B83F186C40ED00360BA8 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 39C5B83D186C40ED00360BA8 /* Localizable.strings */; };
 		5D1CF74D138C7BAB008979B3 /* DBMetadata+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D1CF74C138C7BAB008979B3 /* DBMetadata+Additions.m */; };
 		5D27FE8F13EC992D00EEEFF7 /* WDSamplesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D27FE8D13EC992D00EEEFF7 /* WDSamplesController.m */; };
 		5D348D891386FDA200BB0047 /* WDImportController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D348D881386FDA200BB0047 /* WDImportController.m */; };
@@ -324,6 +325,11 @@
 		29E28F8215115F68007D36DE /* WDEmail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDEmail.h; sourceTree = "<group>"; };
 		29E28F8315115F68007D36DE /* WDEmail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDEmail.m; sourceTree = "<group>"; };
 		29E41AC113F9B229000C3305 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		39C5B838186C407500360BA8 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/ColorBalance.strings; sourceTree = "<group>"; };
+		39C5B839186C407500360BA8 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/HueSaturation.strings; sourceTree = "<group>"; };
+		39C5B83A186C407500360BA8 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/Shadow.strings; sourceTree = "<group>"; };
+		39C5B83B186C407500360BA8 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/Stroke.strings; sourceTree = "<group>"; };
+		39C5B83E186C40ED00360BA8 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/Localizable.strings; sourceTree = "<group>"; };
 		5D1CF74B138C7BAB008979B3 /* DBMetadata+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DBMetadata+Additions.h"; sourceTree = "<group>"; };
 		5D1CF74C138C7BAB008979B3 /* DBMetadata+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DBMetadata+Additions.m"; sourceTree = "<group>"; };
 		5D27FE8C13EC992D00EEEFF7 /* WDSamplesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDSamplesController.h; sourceTree = "<group>"; };
@@ -870,6 +876,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				39C5B83C186C40AC00360BA8 /* vi.lproj */,
 				6B8F091517FCE1DB00BB6F7E /* en.lproj */,
 				6BC96745183149E300F46191 /* es.lproj */,
 				F43A1D69183557770032933E /* fr.lproj */,
@@ -903,6 +910,14 @@
 				6BD7071F12AD011F004E07C9 /* UIKit.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		39C5B83C186C40AC00360BA8 /* vi.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				39C5B83D186C40ED00360BA8 /* Localizable.strings */,
+			);
+			name = vi.lproj;
 			sourceTree = "<group>";
 		};
 		6B6749D117F9446300E9A627 /* Icons */ = {
@@ -1658,6 +1673,7 @@
 				it,
 				es,
 				tr,
+				vi,
 			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
 			projectDirPath = "";
@@ -1742,6 +1758,7 @@
 				6BABD98A141ED30100F7E0A9 /* oval.png in Resources */,
 				6BABD98C141ED30100F7E0A9 /* pen.png in Resources */,
 				6BABD98E141ED30100F7E0A9 /* polygon.png in Resources */,
+				39C5B83F186C40ED00360BA8 /* Localizable.strings in Resources */,
 				6BABD990141ED30100F7E0A9 /* rect.png in Resources */,
 				6BABD992141ED30100F7E0A9 /* rotate.png in Resources */,
 				6B5335451803538D00D46D5B /* MainStoryboard.storyboard in Resources */,
@@ -1997,6 +2014,14 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		39C5B83D186C40ED00360BA8 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39C5B83E186C40ED00360BA8 /* vi */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		6B5335211803538D00D46D5B /* Color.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -2014,6 +2039,7 @@
 				6B95752E183C53690094B7D5 /* es */,
 				6B95752F183C536E0094B7D5 /* fr */,
 				6B957530183C53710094B7D5 /* tr */,
+				39C5B838186C407500360BA8 /* vi */,
 			);
 			name = ColorBalance.xib;
 			sourceTree = "<group>";
@@ -2051,6 +2077,7 @@
 				6B957531183C539E0094B7D5 /* es */,
 				6B957532183C53A00094B7D5 /* fr */,
 				6B957533183C53A30094B7D5 /* tr */,
+				39C5B839186C407500360BA8 /* vi */,
 			);
 			name = HueSaturation.xib;
 			sourceTree = "<group>";
@@ -2096,6 +2123,7 @@
 				6B957534183C53AD0094B7D5 /* es */,
 				6B957535183C53AF0094B7D5 /* fr */,
 				6B957536183C53B10094B7D5 /* tr */,
+				39C5B83A186C407500360BA8 /* vi */,
 			);
 			name = Shadow.xib;
 			sourceTree = "<group>";
@@ -2117,6 +2145,7 @@
 				6B957537183C53BA0094B7D5 /* es */,
 				6B957538183C53BD0094B7D5 /* fr */,
 				6B957539183C53BF0094B7D5 /* tr */,
+				39C5B83B186C407500360BA8 /* vi */,
 			);
 			name = Stroke.xib;
 			sourceTree = "<group>";
